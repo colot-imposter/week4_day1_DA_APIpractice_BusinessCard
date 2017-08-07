@@ -13,15 +13,11 @@ request.send();
 function getInfo() {
     let infoList = JSON.parse(this.responseText);
     let basicList = `
-    <dt>Name: </dt>
-    <dd>${infoList.name}</dd>
-    <dt>UserName: </dt>
-    <dd>${infoList.login}</dd>
-    <dt>Email: </dt>
-    <dd>${infoList.email}</dd>
-    <dt>Company: </dt>
-    <dd>${infoList.company}</dd>
-    <dt>Website: </dt> <dd>${infoList.html_url}</dd>`
+    <dt>Name: </dt><dd>${infoList.name}</dd>
+    <dt>UserName: </dt><dd>${infoList.login}</dd>
+    <dt>Email: </dt><dd>${infoList.email}</dd>
+    <dt>Company: </dt><dd>${infoList.company}</dd>
+    <dt>Website: </dt><dd>${infoList.html_url}</dd>`
 
     basicContainer.innerHTML = basicList
 
