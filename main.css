@@ -1,0 +1,13 @@
+#container{
+  background-color: black;
+  margin: auto 15%;
+}
+
+#myName{
+  background-color: rebeccapurple;
+  width: 500px;
+}
+#cardPart{
+  background-color:white;
+  width: 500px;
+}
