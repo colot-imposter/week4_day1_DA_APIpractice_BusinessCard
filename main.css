@@ -3,10 +3,8 @@ html{
 }
 #container{
   background-color: black;
-  width: 1110px;
-  height: 460px;
-  display: flex;
-  margin: 10% 11%;
+
+  margin: 13% 13%;
 
 }
 
@@ -20,13 +18,14 @@ html{
 
 }
 h1{
-  padding-top: 10px;
+  /*padding-top: 10px;*/
 }
 
 
 #cardPart{
   background-color:white;
   display: flex;
+  padding: 3% 15%;
 
 }
 div.daImage{
@@ -35,6 +34,6 @@ div.daImage{
     align-items: center;
 }
 img{
-  width:30%;
+  width:80%;
   border-radius:50%;
 }
