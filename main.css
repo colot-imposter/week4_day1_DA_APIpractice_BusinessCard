@@ -3,7 +3,7 @@ html{
 }
 #container{
   background-color: black;
-
+  border:1px solid rgba(255, 255, 255, 0.2);
   margin: 13% 13%;
 
 }
@@ -39,7 +39,9 @@ html{
 
 }
 h1{
-  
+  margin-top: 0px;
+    margin: 0px;
+    padding-top: 7px;
 }
 
 
@@ -54,18 +56,41 @@ dt{
   font-size:1em;
 }
 dl{
+  border-right: 1px dashed black;
+  padding-right: 21px;
+  margin-right: 40px;
   font-size:1em;
 }
 p{
-  border-left: 1px dashed black;
 }
 
-div.daImage{
+#imgcenter{
   display: flex;
     justify-content: center;
     align-items: center;
 }
 img{
-  width:80%;
+  width:110px;
   border-radius:50%;
+}
+
+@media only screen and (max-width : 575px){
+
+#cardPart{
+
+  display: flex;
+  flex-direction: column;
+  padding: 3% 15%;
+}
+h1{ font-size: 1.5em;}
+#myName{height:65px;}
+h2{text-align: center;}
+dl{border:0px}
+}
+
+@media only screen and (max-width : 770px){
+  h1{ font-size: 1.5em;}
+  #myName{height:65px;}
+#cardPart{padding: 3% 4%;}
+dl{margin-right: 12px;}
 }
